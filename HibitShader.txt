@@ -29,11 +29,11 @@ Shader "Hibit/HibitShader" {
 		float _Change;
 
 		fixed4 LightingCustom (SurfaceOutput s, fixed3 lightDir, fixed atten)
-        {
-            half d = dot(s.Normal, lightDir)*0.2+0.2;
-            fixed4 c;
-            c.rgb = s.Albedo.rgb*((_Color-.5)/3+d);
-            return c;
+        	{
+		half d = dot(s.Normal, lightDir)*0.2+0.2;
+            	fixed4 c;
+            	c.rgb = s.Albedo.rgb*((_Color-.5)/3+d);
+            	return c;
 		}
 		void surf (Input IN, inout SurfaceOutput o) {
 			fixed4 c = tex2D (_MainTex, IN.uv_MainTex);
