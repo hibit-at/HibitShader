@@ -11,7 +11,7 @@
 
 # How to Use
 
-(If you can’t read Japanese, maybe you can understand :D )
+(If you can’t read Japanese, maybe you could understand :D )
 ![howtouse](https://github.com/hibit-at/HibitShader/blob/image/how%20to%20use.PNG)
 
 # Contents
