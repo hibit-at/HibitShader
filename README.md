@@ -28,3 +28,9 @@ Due to the error I can’t solve, this version doesn’t support Normal map. (So
 # Licence
 
 This repository is under MIT License.
+
+# Updates
+
+ver1.00 - 12/01 released
+ver1.01 - 12/02 made rimcolor reflect huechanged color
+                made rimcolor reflect environmental lights
