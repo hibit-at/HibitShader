@@ -35,4 +35,4 @@ ver1.00 - 12/01 released
 
 ver1.01 - 12/02 made rimcolor reflect huechanged color
 
-                made rimcolor reflect environmental lights
+made rimcolor reflect environmental lights
