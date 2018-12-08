@@ -2,7 +2,7 @@
 	Properties {
 		_Color ("Color", Color) = (.5,.5,.5,1)
 		_RimColor ("RimColor", Color) = (.5,.5,.5,1)
-		_MainTex ("MainTex)", 2D) = "white" {}
+		_MainTex ("MainTex", 2D) = "white" {}
 		_Change ("Change", Range (0,6.28)) = 0
 	}
 	SubShader {
