@@ -15,16 +15,15 @@
 		#pragma target 3.0
 
 		sampler2D _MainTex;
-
-		struct Input {
-		float2 uv_MainTex;
-      	float3 viewDir;
-		};
-
 		fixed4 _Color;
 		fixed4 _RimColor;
 		float _Change;
-
+		
+		struct Input {
+		float2 uv_MainTex;
+      		float3 viewDir;
+		};
+		
 		fixed4 LightingCustom (SurfaceOutput s, fixed3 lightDir, fixed atten) {
 		half d = dot(s.Normal, lightDir)*0.2+0.2;
 		fixed4 c;
