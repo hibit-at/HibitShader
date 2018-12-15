@@ -20,10 +20,10 @@
 
 This is the shader for Unity 2017.4.15. (and probably works also in later versions)
 
-- HibitShader563.shader
+- HibitShader_NonNormal.shader
 
-This is the shader for Unity 5.6.3.
-Due to the error I can’t solve, this version doesn’t support Normal map. (Sorry!)
+This is almost equal to the upper one.
+But, due to the error I can’t solve, this version doesn’t support Normal map. (Sorry!)
 
 # Licence
 
@@ -38,4 +38,5 @@ ver1.01 - 12/02 made rimcolor reflect huechanged color
 made rimcolor reflect environmental lights
 
 ver1.02 - 12/15 made another version "HibitShader_NonNoraml"
-NOTICE:Applying NormalMap may cause the change of brightness at the edge of seam. It's REGARDLESS whether you actually set the texture for NormalMap. I don't know the reason, sorry. To avoid this problem, I made another version without NormalMap. If you don't need to use NormalMap, or you want softer taste of Shader, you can choose this version.
+
+NOTICE : Applying NormalMap may cause the change of brightness at the edge of seam. It's REGARDLESS whether you actually set the texture for NormalMap. I don't know the reason, sorry. To avoid this problem, I made another version without NormalMap. If you don't need to use NormalMap, or you want softer taste of Shader, you can choose this version.
